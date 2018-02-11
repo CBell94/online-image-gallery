@@ -1,10 +1,237 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
         <head>
-            <title></title>
-        </head>
-        <body>
+            <title> Image Gallery</title>
+
+            <link rel="stylesheet" type="text/css" href="bootstrap.css">
+            <link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
+
+           
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="icon" type="shorcut icon" href="http://www.theamazingpics.com/includes/img/pics/captivating-pic-of-rotterdam-in-a-bubble.jpg">
+            <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
 
 
-        </body>
-     </html>    
+          .jumbotron {
+              color:#2C3E50;
+              background-color:lightgray;
+          }
+          .one {
+              float:left;
+              padding-top: px;
+              text-decoration: none;
+          }
+          #name {
+              color: lightblue;
+              font-weight: 200;
+              padding-right: 100px;
+              padding-bottom: 40px;
+          }
+          #copy {
+              color:lightblue;
+              font-weight:300;
+          }
+          #container {
+              margin-bottom:70px;
+          }
+          .flex {
+              display: flex;
+              flex-wrap: wrap;
+            }
+            </style>        
+            
+    </head>    
+            <body style="background: linear-gradient(45deg, blue, red);">
+             <nav class="navbar navbar-inverse navbar-default  navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="file:///C:/Users/Owner/Desktop/Bootstrap%20Project/BootStrap-Project.html"><span class="glyphicon glyphicon-picture"></span>Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i>About <span class="sr-only">(current)</span></a></li>
+        <li><a href="#"><i class="fa fa-address-book fa-2x" aria-hidden="true"></i>Contact</a></li>
+       
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign Up</a></li>
+        <li class="dropdown">
+            
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+           <form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label"></label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label"></label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+</form>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+                 </div> <!-- /.container-fluid -->
+</nav>
+                <div id="container" class="container">
+                <div class="jumbotron">
+                    <h1><span class="glyphicon glyphicon-camera"></span> My Image Gallery</h1>
+             &nbsp; <p>(A bunch of beautiful pics)</p>
+              
+            </div>
+                
+                <div class="row flex">
+                <div class="col-lg-4 col-sm-6">
+                   <div class="thumbnail">
+                       <img class="stretch" src="https://source.unsplash.com/random/230x400">
+                    </div>
+                </div>
+                
+                   <div class="col-lg-4 col-sm-6">
+                
+                   <div class="thumbnail">
+                       <img class="stretch" src="https://source.unsplash.com/random/235x400">
+                    </div>
+                
+                </div>
+                   <div class="col-lg-4 col-sm-6">
+                
+                   <div class="thumbnail">
+                       <img class="stretch" src="https://source.unsplash.com/random/250x400">
+                    </div>
+              
+                </div>
+                   <div class="col-lg-4 col-sm-6">
+               
+                   <div class="thumbnail">
+                       <img class="stretch" src="https://source.unsplash.com/random/260x400">
+                    </div>
+                </div>
+               
+                   <div class="col-lg-4 col-sm-6">
+                
+                   <div class="thumbnail">
+                       <img class="stretch" src="https://source.unsplash.com/random/265x400">
+                    </div>
+                </div>
+               
+                   <div class="col-lg-4 col-sm-6">
+                
+                   <div class="thumbnail">
+                       <img class="stretch" src="https://source.unsplash.com/random/225x400">
+                    </div>
+                </div>
+               
+                   <div class="col-lg-4 col-sm-6">
+               
+                   <div class="thumbnail">
+                       <img class="stretch" src="https://source.unsplash.com/random/212x400">
+                    </div>
+                </div>
+              
+                   <div class="col-lg-4 col-sm-6">
+               
+                   <div class="thumbnail">
+                       <img class="stretch" src="https://source.unsplash.com/random/215x400">
+                    </div>
+                </div>
+               
+                   <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                   
+                       <img class="stretch"  src="https://source.unsplash.com/random/220x400">
+                    </div>
+                </div>
+                    <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                   
+                       <img  src="img/img6.PNG">
+                    </div>
+                </div>
+                       <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                   
+                       <img  src="img/pic1.jpg">
+                    </div>
+                </div>
+                   <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                   
+                       <img  src="img/pic2.jpg">
+                    </div>
+                </div>
+                   <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                   
+                       <img  src="img/img3.JPG">
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                   
+                       <img  src="img/Leo.JPG">
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                   
+                       <img  src="img/img4.JPG">
+                    </div>
+                </div>
+                
+                
+                
+                </div>
+                </div>
+                <nav class="navbar navbar-inverse navbar-default navbar-fixed-bottom">
+                    <div class="container">
+                        
+                    <ul class=" nav-pills nav-justified">
+                          <li role="presentation" ><a href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i>Back To Top</a></li>
+                        <li id="copy">Curdarious Bell &copy; 2017</li>
+                        </ul>
+                        
+                        
+                    </div>     
+                </nav>
+                
+               
+                
+                 <script src="http://code.jquery.com/jquery-3.2.1.js" ></script>
+               <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+            </body>
+   
+</html>
