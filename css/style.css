@@ -1,0 +1,35 @@
+.container .jumbotron,
+.container-fluid .jumbotron {
+   margin-top: 100px;
+    }
+
+    .jumbotron {
+        color: #2C3E50;
+        background-color: lightgray;
+    }
+
+    .one {
+        float: left;
+        text-decoration: none;
+    }
+
+    #name {
+        color: lightblue;
+        font-weight: 200;
+        padding-right: 100px;
+        padding-bottom: 40px;
+    }
+
+    #copy {
+        color: lightblue;
+        font-weight: 300;
+    }
+
+    #container {
+        margin-bottom: 70px;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
